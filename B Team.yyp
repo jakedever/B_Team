@@ -9,7 +9,14 @@
     "name":"Default",
   },
   "defaultScriptType":0,
-  "Folders":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"AudioFiles","folderPath":"folders/AudioFiles.yy","name":"AudioFiles","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"player_sprites","folderPath":"folders/Sprites/player_sprites.yy","name":"player_sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Tilesets","folderPath":"folders/Tilesets.yy","name":"Tilesets","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[],
   "isEcma":false,
@@ -19,12 +26,15 @@
   },
   "name":"B Team",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_playercharacter","path":"objects/obj_playercharacter/obj_playercharacter.yy",},},
+    {"id":{"name":"template_character","path":"objects/template_character/template_character.yy",},},
+    {"id":{"name":"Battlefield","path":"rooms/Battlefield/Battlefield.yy",},},
+    {"id":{"name":"spr_warrior","path":"sprites/spr_warrior/spr_warrior.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Battlefield","path":"rooms/Battlefield/Battlefield.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

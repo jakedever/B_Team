@@ -1,1 +1,0 @@
-instance_destroy(); // Kills itself after the animation is done running
